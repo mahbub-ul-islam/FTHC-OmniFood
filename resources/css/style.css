@@ -1,4 +1,19 @@
-* {
+/*=============================================
+=            Section comment block            =
+=============================================*/
+
+
+
+/*=====  End of Section comment block  ======*/
+
+
+
+
+/*=============================================
+=       Main Section comment block          =
+=============================================*/
+
+body * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,12 +34,34 @@ html {
     margin: 0 auto;
 }
 
+/*=====  End of main Section comment block  ======*/
 
 
 
+/*=============================================
+=       Header Section comment block          =
+=============================================*/
 
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
 
-
-
+h1 {
+    
+}
 
