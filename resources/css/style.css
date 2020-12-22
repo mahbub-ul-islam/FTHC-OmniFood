@@ -2,7 +2,7 @@
 =            Section comment block            =
 =============================================*/
 
-
+/*----------  Subsection comment block  ----------*/
 
 /*=====  End of Section comment block  ======*/
 
@@ -50,15 +50,13 @@ html {
 =       reusable Section comment block          =
 =============================================*/
 
-
-/* all rows */
+/*----------  all rows comment block  ----------*/
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-
-/* all button */
+/*----------  all button comment block  ----------*/
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -86,7 +84,7 @@ html {
 } 
 
 
-/* full button */
+/*----------  full button comment block  ----------*/
 .btn-full:link, 
 .btn-full:visited {
     background-color: #e67e22;
@@ -101,7 +99,7 @@ html {
 }
 
 
-/* ghost button */
+/*----------  ghost button comment block  ----------*/
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #e67e22;
@@ -113,6 +111,63 @@ html {
     border: 1px solid #cf6d17;
     color: #fff;
 }
+
+
+/*----------  section comment block  ----------*/
+section {
+    padding: 80px 0px;
+}
+
+
+/*----------  header comment block  ----------*/
+h2,
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 240%;
+    margin-bottom: 30px;
+    word-spacing: 2px;
+}
+
+h2:after {
+    background-color: #e67e22;
+    height: 2px;
+    content: "";
+    display: block;
+    width: 100px;
+    margin:  0 auto;
+    margin-top: 30px;
+}
+
+
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+
+
+/*----------  section paragraphs comment block  ----------*/
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+
+/*----------  section box comment block  ----------*/
+.box {
+    padding: 1%;
+}
+
 
 
 
@@ -205,3 +260,23 @@ h1 {
 /*=====  End of navbar Section comment block  ======*/
 
 
+
+
+/*=============================================
+=       feature Section comment block          =
+=============================================*/
+
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.icon-big {
+    font-size: 350%;
+    color: #e67e22;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/*=====  End of feature Section comment block  ======*/
