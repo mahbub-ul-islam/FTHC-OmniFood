@@ -7,6 +7,17 @@
 /*=====  End of Section comment block  ======*/
 
 
+/*=============================================
+=            resources comment block            =
+=============================================*/
+
+/* 
+    main color: e67e22
+    color 2 : cf6d17
+*/
+
+/*=====  End of resources comment block  ======*/
+
 
 
 /*=============================================
@@ -29,20 +40,25 @@ html {
 }
 
 
-.row {
-    max-width: 1140px;
-    margin: 0 auto;
-}
+
 
 /*=====  End of main Section comment block  ======*/
 
 
 
 /*=============================================
-=       Basic Section comment block          =
+=       reusable Section comment block          =
 =============================================*/
 
 
+/* all rows */
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* all button */
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -70,10 +86,37 @@ html {
 } 
 
 
+/* full button */
+.btn-full:link, 
+.btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #cf6d17;
+}
+
+
+/* ghost button */
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
 
 
 
-/*=====  End of Basic Section comment block  ======*/
+/*=====  End of reusable Section comment block  ======*/
 
 
 /*=============================================
@@ -103,6 +146,7 @@ h1 {
     font-size: 250%;
     font-weight: 300;
     color: #fff;
+    /* lowercase to uppercase */
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 4px;
@@ -110,50 +154,54 @@ h1 {
 }
 
 
-.btn-full:link, 
-.btn-full:visited {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
-    color: #fff;
-    margin-right: 10px;
-}
-
-.btn-full:hover,
-.btn-full:active {
-    background-color: #cf6d17;
-}
-
-
-.btn-ghost:link,
-.btn-ghost:visited {
-    border: 1px solid #e67e22;
-    color: #e67e22;
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
-    border: 1px solid #cf6d17;
-    color: #fff;
-}
-
-
-
 /*=====  End of Header Section comment block  ======*/
 
 
 /*=============================================
-=       Header Section comment block          =
+=       navbar Section comment block          =
 =============================================*/
 
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    color: #fff;
+    font-size: 90%; /*18px/20*/
+    text-transform: uppercase;
+    padding: 8px 0;
+    border: 1px solid transparent;
+
+    transition: border-bottom 0.2s;
+    -webkit-transition: border-bottom 0.2s;
+    -moz-transition: border-bottom 0.2s;
+    -ms-transition: border-bottom 0.2s;
+    -o-transition: border-bottom 0.2s;
+    -webkit-transition: border-bottom 0.s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 1px solid #e67e22;
+}
 
 
-
-
-
-
-
-
-
-
+/*=====  End of navbar Section comment block  ======*/
 
 
