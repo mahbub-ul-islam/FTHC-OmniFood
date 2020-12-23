@@ -39,8 +39,17 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+    zoom: 1;
+}
 
-
+.clearfix::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 
 /*=====  End of main Section comment block  ======*/
 
@@ -352,17 +361,64 @@ h1 {
 
 
 
-
-
-
-
-
-
-
-
 /*=====  End of meal Section comment block  ======*/
 
 
+/*=============================================
+=     work-step Section comment block        =
+=============================================*/
+
+.steps-box:first-child {
+    padding-right: 3%;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    display: inline-block;
+    font-size: 150%;
+    color: #e67e22;
+    padding: 5px;
+    float: left;
+    margin-right: 25px;
+
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.works-step p {
+    padding-top: 3px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
 
 
 
@@ -374,6 +430,11 @@ h1 {
 
 
 
+
+
+
+
+/*=====  End of work-step Section comment block  ======*/
 
 
 
