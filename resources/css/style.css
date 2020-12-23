@@ -266,6 +266,9 @@ h1 {
 =       feature Section comment block          =
 =============================================*/
 
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
 
 .box p {
     font-size: 90%;
@@ -280,3 +283,80 @@ h1 {
 }
 
 /*=====  End of feature Section comment block  ======*/
+
+
+
+/*=============================================
+=       meals Section comment block          =
+=============================================*/
+
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+
+.meals-photo {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+.meals-photo img {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+
+    display: block;
+    /* vertical-align: top; */
+}
+
+.meals-photo img:hover {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=====  End of meal Section comment block  ======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
