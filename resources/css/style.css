@@ -368,6 +368,10 @@ h1 {
 =     work-step Section comment block        =
 =============================================*/
 
+.section-steps {
+    background-color: #f4f4f4;
+}
+
 .steps-box:first-child {
     padding-right: 3%;
     text-align: right;
