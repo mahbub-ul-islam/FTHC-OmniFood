@@ -477,11 +477,9 @@ h1 {
 }
 
 
-
-
-
-
 /*=====  End of cities Section comment block  ======*/
+
+
 
 
 /*=============================================
@@ -539,20 +537,63 @@ cite img {
 =     plan Section comment block        =
 =============================================*/
 
+.section-plans {
+    background-color: #f4f4f4;
+}
 
+.plan-box {
+    background-color: #fff;
+    width: 90%;
+    margin-left: 5px;
+    box-shadow:  0 2px 2px #efefef;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 
+.plan-box div {
+    padding: 5px;
+    border-bottom: 1px solid #e8e8e8;
+}
 
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 
+.plan-box div:last-child {
+    text-align: center;
+    border: 0;
+    padding: 10px;
+}
 
+.plan-price {
+    color: #e67e22;
+    font-size: 300%;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
 
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
 
+.plan-price-meal {
+    font-size: 80%;
+    margin-left: 10px;
+}
 
+.plan-box ul {
+    list-style: none;
+}
 
-
-
-
-
-
+.plan-box li {
+    padding: 5px 0;
+}
 
 
 
