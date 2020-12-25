@@ -67,7 +67,8 @@ html {
 
 /*----------  all button comment block  ----------*/
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -95,7 +96,8 @@ html {
 
 /*----------  full button comment block  ----------*/
 .btn-full:link, 
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
@@ -103,7 +105,9 @@ html {
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     background-color: #cf6d17;
 }
 
@@ -604,14 +608,45 @@ cite img {
 =     contact Section comment block        =
 =============================================*/
 
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
 
+.label {
+    margin-top: 12px;
+}
 
+label {
+    padding: 7px;
+    vertical-align: middle;
+}
 
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
 
+textarea {
+    height: 100px ;
+}
 
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
 
-
-
+*:focus {
+    outline: none;
+}
 
 
 
