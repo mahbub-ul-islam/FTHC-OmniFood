@@ -178,6 +178,19 @@ h3 {
 }
 
 
+/*----------  small icon comment block  ----------*/
+
+.icon-small {
+    color: #e67e22;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
 
 
 /*=====  End of reusable Section comment block  ======*/
@@ -463,17 +476,7 @@ h1 {
     border-bottom: 2px solid transparent;
 }
 
-.icon-small {
-    color: #e67e22;
-    display: inline-block;
-    width: 30px;
-    text-align: center;
-    margin-right: 10px;
 
-    line-height: 120%;
-    vertical-align: middle;
-    margin-top: -5px;
-}
 
 
 
@@ -482,7 +485,7 @@ h1 {
 
 
 /*=============================================
-=     cities Section comment block        =
+=     testimonials Section comment block        =
 =============================================*/
 
 
@@ -498,7 +501,84 @@ blockquote {
     padding: 2px;
     font-style: italic;
     line-height: 145%;
+    position: relative;
+    margin-top: 40px;
 }
+
+blockquote::before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+} 
+
+cite {
+    display: block;
+    margin-top: 25px;
+    font-size: 90%;
+}
+
+cite img {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+/*=====  End of testimonials Section comment block  ======*/
+
+
+/*=============================================
+=     plan Section comment block        =
+=============================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====  End of plan Section comment block  ======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
