@@ -1,0 +1,71 @@
+
+/* Big tablets to 1200px (widths smaller then 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+    /* all row */
+    .row {
+        padding: 0 2%;
+    }
+
+    /* header */
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    /* headlings */
+    h1 {
+        font-size: 230%;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+    /* paragraph after h2 */
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    /* work-step section */
+    .steps-box:last-child {
+        margin-top: 60px;
+    }
+
+    .works-step {
+        margin-bottom: 45px;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    /* contact section */
+    .contact-form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}
+
+/* Small tablet to big tables: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* Small phone to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Small phone: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}
+
+
