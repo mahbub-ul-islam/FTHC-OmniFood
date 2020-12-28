@@ -416,7 +416,7 @@ h1 {
     height: 55px;
     width: 55px;
     text-align: center;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 150%;
     color: #e67e22;
     padding: 5px;
@@ -433,6 +433,7 @@ h1 {
 
 .works-step p {
     padding-top: 3px;
+    display: block;
 }
 
 .btn-app img {
@@ -458,6 +459,10 @@ h1 {
 
 .city-feature {
     margin-bottom: 5px;
+}
+
+.city-feature p {
+    display: inline-block;
 }
 
 .city-feature a:link,
@@ -548,7 +553,7 @@ cite img {
 .plan-box {
     background-color: #fff;
     width: 90%;
-    margin-left: 5px;
+    margin-left: 5%;
     box-shadow:  0 2px 2px #efefef;
     border-radius: 5px;
     -webkit-border-radius: 5px;
