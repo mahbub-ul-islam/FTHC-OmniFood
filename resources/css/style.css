@@ -512,15 +512,17 @@ blockquote {
     line-height: 145%;
     position: relative;
     margin-top: 40px;
+    padding-top: 20px;
 }
 
 blockquote::before {
     content: "\201C";
+    /* content: "A"; */
     font-size: 500%;
     display: block;
     position: absolute;
-    top: -5px;
-    left: -5px;
+    /* top: -5px; */
+    /* left: -5px; */
 } 
 
 cite {
